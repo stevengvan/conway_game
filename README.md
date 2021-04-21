@@ -19,5 +19,5 @@ This program is my own implementation of John Conway's Game of Life that uses th
 * The entire interface must be updated as a whole to simulate the changes
 
 
-#### Cell Vs Board Update
+### Cell Vs Board Update
 I've separated the counting of adjacent cells from the interface update in order to simulate the update as a whole unit. Having to combine the two processes would cause the interface to individually update the cells according to its updated interface, which would break some of the rules in the automation process. This separation would retain the rules of the automation and thus simulate the correct shapes according to the cell patterns made.
