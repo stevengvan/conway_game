@@ -1,4 +1,5 @@
 # Conway's Game of Life
+#### Steven Van
 
 ## Description
 This program is my own implementation of John Conway's Game of Life that uses the ncurses library for a text-based user interface. The game follows a set of rule to simulate cell automations throughout time to create complex shapes. This project was fun to work on, from learning the ncurses library to understanding the concept of the game and thinking of a design that replicates the cell automation process. It took a while for me to figure out how I should handle the interface update when it came to the simulation process, but having to play around with an online version of Conway's Game of Life helped me realize some changes that were needed to be changed, including the method of updating the cells on the interface.
