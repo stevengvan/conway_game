@@ -8,5 +8,8 @@ LIBS= -lncurses
 conway:
 	$(CPP) $(CFLAGS) $(OBJS) $(SRC) $(LIBS)
 
+run: conway
+	./conway
+
 clean:
 	rm -f conway
